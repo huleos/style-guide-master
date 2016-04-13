@@ -3,10 +3,7 @@
 // Foundation
 @import 'foundation';
 @import 'foundation/settings';
-@include foundation-everything();
-$global-flexbox: true;
-@include foundation-flex-grid;
-@include foundation-flex-classes;
+@include foundation-everything(true);
 
 // Utilities
 @import 'utils/variables';

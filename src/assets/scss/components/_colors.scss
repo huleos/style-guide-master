@@ -1,6 +1,10 @@
 // Colors
 
 #colors{
+	.row{
+		margin-left: 0;
+  	margin-right: 0;
+	}
 	.box{
 		min-height: rem-calc(150);
 		color: $white;

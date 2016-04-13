@@ -1,7 +1,7 @@
 {
   "name": "foundation-site-generator",
   "version": "0.0.1",
-  "description": "Static site generator with Gulp and Zurb Foundation",
+  "description": "Basic style guide for projects with Zurb Foundation",
   "scripts": {
     "start": "gulp"
   },
@@ -24,7 +24,7 @@
     "run-sequence": "^1.1.5"
   },
   "dependencies": {
-    "foundation-sites": "^6.2.0",
+    "foundation-sites": "^6.2.1",
     "highlight.js": "^9.3.0",
     "jquery": "^2.2.2"
   },
