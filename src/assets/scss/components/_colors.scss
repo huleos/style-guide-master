@@ -1,0 +1,42 @@
+// Colors
+
+#colors{
+	.box{
+		min-height: rem-calc(150);
+		color: $white;
+		padding: rem-calc(15); 
+	}
+	.primary-color{
+		background-color: $primary-color;  
+	}
+	.secondary-color{
+		background-color: $secondary-color;  
+	}
+	.success-color{
+		background-color: $success-color;  
+	}
+	.warning-color{
+		background-color: $warning-color;  
+	}
+	.alert-color{
+		background-color: $alert-color;  
+	}
+	.light-gray{
+		background-color: $light-gray;
+		color: $dark-gray; 
+	}
+	.medium-gray{
+		background-color: $medium-gray;
+		color: $dark-gray; 
+	}
+	.dark-gray{
+		background-color: $dark-gray; 
+	}
+	.black{
+		background-color: $black; 
+	}
+	.white{
+		background-color: $white;
+		color: $dark-gray; 
+	}
+}

@@ -1,0 +1,18 @@
+// Typography
+#typography{
+	font-size: rem-calc(24);
+	.font-primary{
+		font-family: $font-primary;
+	}
+
+	.font-secondary{
+		font-family: $font-secondary;
+	}
+	p {
+		margin-bottom: 0;
+	}
+	.light{ font-weight: $font-light; }
+	.regular{ font-weight: $font-regular; }
+	.semi{ font-weight: $font-semi; }
+	.bold{ font-weight: $font-bold; }
+}

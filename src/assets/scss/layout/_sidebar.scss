@@ -1,0 +1,16 @@
+// Sidebar 
+#sidebar{
+	text-transform: capitalize;
+	.title{
+		text-transform: uppercase;
+		font-size: rem-calc(12);
+		color: $dark-gray;
+		font-weight: $font-bold;
+		padding-left: rem-calc(14);
+		margin-bottom: rem-calc(8);
+	}
+	.active{
+		background-color: map-get($foundation-palette, primary);
+		color: $white;
+	}
+}

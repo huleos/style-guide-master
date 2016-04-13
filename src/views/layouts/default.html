@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{#if title}}{{title}}{{else}}Foundation 6 Starter Template{{/if}}</title>
+		<meta
+      name="description" content="{{#if description}}{{description}}{{else}}Description goes here!{{/if}}">
+		<link href="assets/img/favicon.png" type="image/png" rel="icon">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    {{> header}}
+    <main class="row">
+    {{> sidebar}}
+    {{> body}}
+    </main>
+    {{> footer}}
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
