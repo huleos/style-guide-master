@@ -13,4 +13,12 @@
 		background-color: map-get($foundation-palette, primary);
 		color: $white;
 	}
+	nav{
+		font-size: rem-calc(13);
+		a{
+			&:hover{
+				background-color: $light-gray;
+			}
+		}
+	}
 }
